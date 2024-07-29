@@ -1,0 +1,334 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceDuck</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/16b6f8483a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <article id="Start">
+                <h1>Intro to SpaceDuck</h1>
+                <hr style="width: 80%; display: flex;">
+                <article class="container3" style="margin-top: -50px;">
+                    <p style="font-size: 18px; font-weight: 500;">Have you ever dreamt of being in the outer space dodging meteors? Or maybe even destroying the meteors with "rema boller"? 
+                       Well look no further, SpaceDuck is a 2d game where you play as a duck and shoot meteors, if you ever get bored of duck(which is weird, since ducks are sick),
+                       you have the option to play as "Henry" or "Oliver"</p>
+
+                    <h3 style="margin-top: 50px;">About the project & me</h3>
+                    <hr style="width: 40%; display: flex;">
+                    <p>Hello! My name is <span style="font-weight: 700;">Sindre</span>, and I am a 16 year old studying <span style="font-weight: 700;">IM</span> at glemmen. <span style="font-weight: 700;">SpaceDuck</span> is just a school project that 
+                        I have worked on since early February, it all started from a small idea where I had 3 main parts. A duck, a timer, and meteors falling from the sky.
+                       Since this was my first time ever actually coding something in python, I had to learn <span style="font-weight: 700;">ALOT</span>, and trying to code your first ever game with no experience can be a challenge.
+                    </p><p style="margin-top: 20px;">That's why I code a litte different... You see most people usually just watch a youtube tutorial or two and copypasting some code, thinking they will learn something from it, in reality they <span style="font-weight: 700;">won't.</span>
+                       When I first started the project I tried making different functions and playing around with how the language works, and when I understood the basics and how to reuse old code that's when I started on making the actual game.
+                       You see, there is nothing wrong with watching a youtube tutorial and searching things up, but if you know the basics and how things work, things will go easier and you will learn quicker, since you know what you are writing.
+                       And just like that, you're learning quicker while coding at the same time.
+                    </p>
+                </article>
+
+                <div class="buttons">
+                    <a onclick="goTo('Planning', 'num1', 'num2')" style="display: block;">Next</a> 
+                </div>
+            </article>
+            <article id="Planning" style="display: none;">
+                <h1>Planning of the Project</h1>
+                <article class="container2">
+                    <aside class="container3">
+                        <h2 style="font-size: 28px; font-weight: 500;">1. Getting Started</h2>
+                        <hr style="width: 80%; display: flex;">
+
+                        <span class="textSpan"><p>I began with a simple idea: to create a fun game set in space. I figured out how the game would work and what it would look like. This involved:</p></span>
+                            
+                            <p style="margin-top: 10px;">&#x2022; Deciding how the player would move and what challenges they'd face.</p>
+                            <p>&#x2022; Drawing pictures of the characters, backgrounds, and other things you see in the game.</p>
+                            <p>&#x2022; Making sure the game could respond when you pressed buttons to move around.</p>
+
+                        <h2 style="font-size: 28px; font-weight: 500;">2. Growing Along the Way:</h2>
+                        <hr style="width: 80%; display: flex;">
+                            
+                           <span class="textSpan"> <p>As I worked on the game, I came up with new ideas to make it even better. Here's what I added as I went along:</p></span>
+                            
+                            <p style="margin-top: 10px;">&#x2022; I gave the player a way to shoot at enemies, making the game more exciting.</p>
+                            <p>&#x2022; I added sounds and music to make the game feel more alive.</p>
+                            <p>&#x2022; I created a system where players could earn points and buy things in the game.</p>
+                            <p>&#x2022; In Patch v1.2, I reworked the database system, creating a single .db file instead of multiple text files containing information. This streamlined the game's data management and improved efficiency.</p>
+                    </aside>
+                    <aside class="container3">
+                        <div class="imgcontainer2">
+                            <img src="img/Character.png">
+                        </div>
+                        <h2 style="font-size: 28px; font-weight: 500;">3. Making Improvements:</h2>
+                        <hr style="width: 80%; display: flex;">
+                            
+                        <span class="textSpan"><p>I didn't stop there! I kept making the game better with each update:</p></span>
+                            
+                            <p style="margin-top: 10px;">&#x2022; In the first update (Patch v1.0), I made sure all the basic parts of the game were working well.</p>
+                            <p>&#x2022; In the next update (Patch v1.1), I let players customize their characters and added some new features.</p>
+                            <p>&#x2022; I kept improving things like how items appear in the game and fixing any problems that popped up.</p>
+
+                        <h2 style="font-size: 28px; font-weight: 500;">4. What's Next?</h2>
+                        <hr style="width: 80%; display: flex;">
+                            
+                        <span class="textSpan"><p style="margin-top: 10px;">As I look to the future, the journey of Spaceduck continues. Stay tuned for upcoming updates, including new content, optimizations, and community-driven features.</p></span>
+                    </aside>
+                </article>
+                <div class="buttons">
+                    <a onclick="goTo('Start', 'num2', 'num1')" style="display: block;">Back</a>
+                    <a onclick="goTo('AckAndIns', 'num2', 'num3')" style="display: block;">Next</a> 
+                </div>
+            </article>
+            <article id="AckAndIns" style="display: none;">
+                <h1>Acknowledgments and Inspirations:</h1>
+                <article class="container2">
+                    <aside class="container3">
+                        <p style="font-size: 16px; font-weight: 500; margin-bottom: 25px;">In the journey of creating Spaceduck, I drew inspiration and guidance from various resources and individuals who contributed to the game's development. Here's a shoutout to those who played a significant role:</p>
+                        <h2 style="font-size: 18px; font-weight: 500;">TechWithTim</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p style="margin-top: 15px;">&#x2022;I utilized TechWithTim's tutorial on YouTube <a href="https://www.youtube.com/watch?v=waY3LfJhQLY&ab_channel=TechWithTim">https://www.youtube.com/watch?v=waY3LfJhQLY&ab_channel=TechWithTim</a> to set up the game environment. His step-by-step guidance provided a solid foundation for building Spaceduck.</p>
+                        <h2 style="font-size: 18px; font-weight: 500;">GeeksforGeeks</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p>&#x2022;GeeksforGeeks Button Creation Guide: <a href="https://www.geeksforgeeks.org/how-to-create-buttons-in-a-game-using-pygame/">https://www.geeksforgeeks.org/how-to-create-buttons-in-a-game-using-pygame/</a>" was invaluable in creating interactive buttons within the game. It helped enhance the user experience and navigation.</p>
+                        
+                    </aside>
+                    <aside class="container3">
+                        <h2 style="font-size: 18px; font-weight: 500;">F4m1LyGuy10</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p>&#x2022;The music featured in Spaceduck was sourced from F4m1LyGuy10's playlist <a href="https://www.youtube.com/watch?v=7HSritifpTI&list=PLaEhyKrOpBW1VT_UlbQxGy8YMlk-tVwDX&index=13&ab_channel=F4m1LyGuy10">https://www.youtube.com/watch?v=7HSritifpTI&list=PLaEhyKrOpBW1VT_UlbQxGy8YMlk-tVwDX&index=13&ab_channel=F4m1LyGuy10</a>. These captivating tunes added depth and atmosphere to the cosmic adventure.</p>
+                        <h2 style="font-size: 18px; font-weight: 500;">TheFatRat</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p>&#x2022;The start screen of Spaceduck features music from TheFatRat <a href="https://www.youtube.com/watch?v=n8X9_MgEdCg&ab_channel=TheFatRat">https://www.youtube.com/watch?v=n8X9_MgEdCg&ab_channel=TheFatRat</a>, setting the stage for an epic journey through the stars.</p>
+                    
+                        <h2 style="font-size: 18px; font-weight: 500;">ChatGPT</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p>&#x2022;ChatGPT hepled me further devlop some functionalities and also fixing small bugs</p>
+                    
+                        <h2 style="font-size: 18px; font-weight: 500;">Personal Exploration</h2>
+                        <hr style="width: 80%; display: flex;">
+                        <p>&#x2022;While I received assistance from external sources, I also embarked on a personal journey of exploration and learning. Through experimentation and iteration, I honed my skills in pygame and brought my creative vision to life.</p>
+                    
+                    </aside>                    
+                    
+                    </article>
+                <div class="buttons">
+                    <a onclick="goTo('Planning', 'num3', 'num2')" style="display: block;">Back</a>
+                    <a onclick="goTo('PlayTestingAndFeedback', 'num3', 'num4')" style="display: block;">Next</a> 
+                </div>
+            </article>
+            <article id="PlayTestingAndFeedback" style="display: none;">
+                <h1>Playtesting & Feedback</h1>
+                <article class="container2">
+                    <aside class="container3">
+                       <p style="font-weight: 500; font-size: 16px;">•	Hva synes du om spillets grafikk og design?</p> 
+                       <p style="font-size: 14px;">Jeg synes spillets grafikk og design er ganske bra, alt passer sammen og det er klart at det er et verdensrom tema. </p>
+
+                       <p style="font-weight: 500; font-size: 16px;">•	Var det vanskelig å navigere gjennom spillet?</p>
+                       <p style="font-size: 14px;">Nei, det var ganske simpelt å navigere gjennom spillet. Siden det var jo ganske klart hva de forskjellige knappene ledet til</p>
+
+                       <p style="font-weight: 500; font-size: 16px;">•	Er det enkelt å starte ett spill?</p>
+                       <p style="font-size: 14px;">Ja! Jeg måtte bare trykke på «Spacebar» så kom jeg rett inn i et spill.</p>
+
+                       <p style="font-weight: 500; font-size: 16px;">•	Hvordan styrer du karakteren i spillet, bevegelse og skyting? (hvilke taster, og trenger du mus?)</p>
+                       <p style="font-size: 14px;">Du går til sidene med piltastene eller med «A/D» knappene, du skyter bare ved å venstre klikke på musen.</p>
+
+                       <p style="font-weight: 500; font-size: 16px;">•	Hvordan endrer du vanskelighetsgrad?</p>
+                       <p style="font-size: 14px;">Du trykker på ikonet med den stjerna i midten, også bare velger du hvilket nivå derifra</p>
+
+                       
+                    </aside>
+                    <aside class="container4">
+                        <p style="font-weight: 500; font-size: 16px; margin: 10px;">•	Hvordan skrur du av musikk?</p>
+                        <p style="font-size: 14px; margin: 10px;">Du trykker på tannhjul ikonet og skrur av musikken der.</p>
+
+                        <p style="font-weight: 500; font-size: 16px; margin: 10px;">•	Hvordan endrer du karakter?</p>
+                        <p style="font-size: 14px; margin: 10px;">Du trykker på den karakter ikonet og endrer der inne.</p>
+
+                        <p style="font-weight: 800; font-size: 14px;">Woman, 49</p>
+                        <div class="feedback" style="transform: rotate(10deg); margin-top: 50px;">
+                            <img src="img/userpic.webp">
+                                <div class="textfeedback">
+                                    <p style="font-weight: 500; font-size: 18px;">Boy, 15</p>
+                                    <p style="font-size: 14px;">I love this game!</p>
+                                </div>
+                        </div>
+                        <div class="feedback" style="margin-right: -20px;">
+                            <img src="img/userpic.webp">
+                                <div class="textfeedback">
+                                    <p style="font-weight: 500; font-size: 18px;">Girl, 13</p>
+                                    <p style="font-size: 14px;">This game is easy to play!</p>
+                                </div>
+                        </div>
+                        <div class="feedback" style="transform: rotate(-10deg);">
+                            <img src="img/userpic.webp">
+                                <div class="textfeedback">
+                                    <p style="font-weight: 500; font-size: 18px;">Woman, 21</p>
+                                    <p style="font-size: 14px;">SpaceDuck is well made!</p>
+                                </div>
+                        </div>
+                    </aside>
+                </article>
+                <div class="buttons">
+                    <a onclick="goTo('AckAndIns', 'num4', 'num3')" style="display: block;">Back</a>
+                    <a onclick="goTo('Download', 'num4', 'num5')" style="display: block;">Next</a> 
+                </div>
+            </article>
+            <article id="Download" style="display: none;">
+                <article class="container3">
+                    <div class="imgcontainer">
+                        <img src="img/DownloadBanner.png">
+                    </div>
+                    <h3 style="margin-top: 25px;">IMPORTANT!</h3>
+                    <hr style="width: 40%; display: flex;">
+                    <p style="margin-top: 25px;">1. Python V3 or higher</p>
+                    <p>2. Run the setup file BEFORE you run the game to install essential libaries</p>
+                    <table style="margin-top: 50px;">
+                        <tr>
+                            <th>Version</th>
+                            <th>Download</th>
+                        </tr>
+                        <tr>
+                            <td>v1.0 - 06.02.2024</td>
+                            <td>
+                                <a href="_versions/SpaceDuck v1.0.zip" download>
+                                    <button class="btn"><i class="fa fa-download"></i>Download</button>
+                                </a>  
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown('dropdown-content')">About</button>
+                                    <div class="dropdown-content" id="dropdown-content">
+                                        <p>Patch v1.0 - 06.02.2024</p>
+                                        <hr>
+                                        <p>+ Movement (Move with "A" and "D" or "LeftArrow" and "RightArrow"</p>
+                                        <p>+ Sprite Designs (Character, Backgrounds, Meteors, Buttons)</p>
+                                        <p>+ Meteor falling system (Makes 3 meteors fall on random places and quicker over time)</p>
+                                        <p>+ Start Window, Game Window, GameOver Window (So all have the working sounds, images, functions)</p>
+                                        <p>+ SettingsTab in Start Window (CustomizationTab and LevelsTab will be added later)</p>
+                                        <p>+ Shooting mechanic (So you can shoot "Sjokolade boller fra Rema 1000 (In honor of Tobias)"</p>
+                                        <p>+ Sound effects (Made by Henry)</p>
+                                        <p>+ Music (Currently taken from youtube, but I will later on maybe make it myself)</p>
+                                        <p>+ Time and Coin system, including local highscore</p>
+
+                                    </div>
+                                </div>  
+                            </td>                              
+                        </tr>
+                        <tr>
+                            <td>v1.1 - 12.03.2024</td>
+                            <td>
+                                <a href="_versions/SpaceDuck v1.1.zip" download>
+                                    <button class="btn"><i class="fa fa-download"></i>Download</button>
+                                </a>
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown('dropdown-content1')">About</button>
+                                    <div class="dropdown-content" id="dropdown-content1">
+                                        <p>Patch v1.1 - 12.03.2024</p>
+                                        <hr>
+                                        <p>+ Customizationtab (LevelTab will be added later)</p>
+                                        <p>+ CharacterHenry, you already own it now, but later it will cost 500$ (No perks yet)</p>
+                                        <p>+ CharacterOliver, you already own it now, but later it will cost 1500$ (Has 2 guns and shoot 2 "boller" at same time)</p>
+                                        <p>+ Changed shooting mechanic, now shoots from right side where the "bolle" is, instead of shooting from the middle</p>
+                                        <p>+ Waves, some waves are easy and some are hard, you also get 1 ammo and health per finished wave</p>
+                                        <p>+ When you run the program it checks if you have pygame installed, if not it will install it for you and the program will normal. (setup.bat)</p>
+
+                                    </div>
+                                </div>
+                            </td>                              
+                        </tr>
+                        <tr>
+                            <td>v1.2- 16.04.2024</td>
+                            <td>
+                                <a style="text-decoration: none; color: black;" href="_versions/SpaceDuck v1.2.zip" download>
+                                    <button class="btn"><i class="fa fa-download"></i>Download</button>  
+                                </a>     
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown('dropdown-content2')">About</button>
+                                    <div class="dropdown-content" id="dropdown-content2">
+                                        <p>Patch v1.2 - 16.04.2024</p>
+                                        <hr>
+                                        <p>+ ItemDrops, random item (either heal or ammo) will fall down, and you can pick it up</p>
+                                        <p>- Changed wave system, removed you get 1 extra health and ammo (replaced by ItemDrops)</p>
+                                        <p>+/- Currently changing the data storage system, instead of using multiple .txt files, it's getting changed to a sql databse instead. It's still getting fixed and will be done next Version.</p>
+                                    </div>
+                                </div> 
+                            </td>                              
+                        </tr>
+                        <tr>
+                            <td>v1.3- 30.04.2024</td>
+                            <td>
+                                <a style="text-decoration: none; color: black;" href="_versions/SpaceDuck v1.3.zip" download>
+                                    <button class="btn"><i class="fa fa-download"></i>Download</button>  
+                                </a>     
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown('dropdown-content3')">About</button>
+                                    <div class="dropdown-content" id="dropdown-content3">
+                                        <p>Patch v1.3 - 30.04.2024</p>
+                                        <hr>
+                                        <p>+ Added Levels (easy, medium, hard)</p>
+                                        <p>- Fixed HealthBar size bug</p>
+                                        <p>+ Finished data storage system</p>
+                                        <p>+ Finished wave system</p>
+                                        <p>+ Fixed bug where player did not spawn in center when playing</p>
+                                        <p>+ Added 0.7s cooldown for shooting</p>
+                                        <p>+ Fixed a bug where the wave system skipped wave 4, and went straight from wave 3 to wave 5</p>
+                                        <p>+ Info tab auto open when you open/play the game for the first time. You can access it later on from the middle right side on the screen.</p>
+                                    </div>
+                                </div> 
+                            </td>                              
+                        </tr>
+                        <tr>
+                            <td>v1.4- 13.05.2024 (Latest Release)</td>
+                            <td>
+                                <a style="text-decoration: none; color: black;" href="_versions/SpaceDuck v1.4.zip" download>
+                                    <button class="btn"><i class="fa fa-download"></i>Download</button>  
+                                </a>     
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown('dropdown-content4')">About</button>
+                                    <div class="dropdown-content" id="dropdown-content4">
+                                        <p>Patch v1.4 - 13.05.2024</p>
+                                        <hr>
+                                        <p>+ Fixed small performance bugs</p>
+                                        <p>+ Made so you can buy skins</p>
+                                    </div>
+                                </div> 
+                            </td>                              
+                        </tr>
+                    </table>
+                </article>
+                <div class="buttons">
+                    <a onclick="goTo('PlayTestingAndFeedback', 'num5', 'num4')" style="display: block;">Back</a> 
+                </div>
+            </article>
+            
+        </section>
+        <ul class="step-wizard-list">
+            <li class="step-wizard-item current-item" id="num1">
+                <span class="progress-count">1</span>
+                <span class="progress-label">Introduction</span>
+            </li>
+            <li class="step-wizard-item" id="num2">
+                <span class="progress-count" >2</span>
+                <span class="progress-label">Planning of the project</span>
+            </li>
+            <li class="step-wizard-item" id="num3">
+                <span class="progress-count" >3</span>
+                <span class="progress-label">Acknowledgments and Inspirations</span>
+            </li>
+            <li class="step-wizard-item" id="num4">
+                <span class="progress-count" >4</span>
+                <span class="progress-label">Playtesting & Feedback</span>
+            </li>
+            <li class="step-wizard-item" id="num5">
+                <span class="progress-count" >5</span>
+                <span class="progress-label">Download The Project</span>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
